@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<templates id="template_id1" >
+    <t t-extend="systray_odoo_referral.gift_icon">
+        <t t-jquery="a[class='gift_icon']" t-operation="attributes">
+            <attribute name="style">display:none;</attribute>
+        </t>
+    </t>
+</templates>

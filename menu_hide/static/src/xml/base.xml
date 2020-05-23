@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<templates id="template_id" xml:space="preserve">
+    <t t-extend="UserMenu.Actions">
+        <t t-jquery="a[data-menu='documentation']" t-operation="attributes">
+            <attribute name="style">display:none;</attribute>
+        </t>
+        <t t-jquery="a[data-menu='support']" t-operation="attributes">
+            <attribute name="style">display:none;</attribute>
+        </t>
+        <t t-jquery="a[data-menu='account']" t-operation="attributes">
+            <attribute name="style">display:none;</attribute>
+        </t>
+    </t>
+</templates>
+
